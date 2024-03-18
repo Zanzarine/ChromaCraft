@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Saira+Stencil+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Saira+Stencil+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --HeaderBackground: #e3f8ff;
+    --footer: #63b8ce;
+    --corDeFundo: #a6ebff;
+    --textColor: #84d7ef;
+    --backgroundColor: #589A8D;
+}
+
+body{
+    background-color: var(--corDeFundo);
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 15vh;
+    background-color: var(--HeaderBackground);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.logo {
+    color: var(--textColor);
+    font-size: 46px;
+    font-family: "Lavishly Yours", cursive;
+    margin-left: 20px; 
+}
+
+.links__header {
+    display: flex;
+}
+
+.links__header .link {
+    color: var(--textColor);
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: var(--footer);
+    color: #ffffff;
+    height: 12vh;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.footer p {
+    margin-left: 10px; 
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(136, 136, 238);
+    padding: 5px;
+    margin: 30px auto 0; 
+    display: block; 
+}
+.coresEscolhidas {
+    display: flex;
+    justify-content: center;
+    padding: 5px; 
+    background-color: white; 
+    width: 30%; 
+    height: 34px;
+    margin: 0 auto; 
+    border: 1px solid black; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+.coresEscolhidas span {
+    display: inline-block;
+    text-align: center;
+    width: 68px; 
+    height: 20px; 
+    margin: 0 3px; 
+    border: 1px solid black; 
+    border-radius: 3px; 
+}
+
+
+/*  FAKE SITE */
+
+.fake__header{
+    background-color: #589A8D;
+    color: var(--textColor);
+    height: 5vw;
+    padding: 20px;
+}
+
+.fake__header h3{
+    font-family: "Lavishly Yours", cursive;
+    font-size: 30px;
+}
+
+.fake__links .link__f{
+    color: var(--textColor);
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px; /* Adicionado para dar espaçamento entre os links */
+}
+
+.container {
+    background-color: #81cbdd;
+    margin: 20px auto;
+    width: 80%;
+    margin-top: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aumentado o efeito de sombra */
+    border-radius: 10px; /* Adicionado bordas arredondadas para destacar o quadro */
+}
+
+.content {
+    background-color: #81cbdd;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.content h4{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.fake__aboutMe{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+}
+
+.fake__footer {
+    background-color: #589A8D;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 10px;
+}
